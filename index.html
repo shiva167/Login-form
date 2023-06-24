@@ -1,0 +1,37 @@
+ <html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" href="ptt.css">
+    </head>
+    <body>
+        <div class="loginform">
+         <h1>Login Form</h1>
+         <form name="myform">
+             <p>User Name</p>
+             <input type="text" class="input" name="fname" placeholder="Enter a name...">
+             <p>Password</p>
+             <input type="password" class="input" placeholder="Enter a password..."><br>
+             <input type="submit" onclick="Validateform()" class="btn" value="Login">
+         </form>
+         <h4><a href="#"> Forget Password ?</a></h4>
+         <h4><a href="#">Can I help you ?</a></h4>
+        </div>
+        <p id= "para"></p>
+
+    </body>
+</html>
+
+<!-- <script>
+    function Validateform(){
+        var store; 
+        var jj = document.forms['myform']['fname'].value;
+        if(isNaN(jj)||jj>10||jj<1){
+          store="input is wrong";
+        }else{
+            store= "input is ok";
+        }
+        document.getElementById("para").innerHTML = store;
+    }
+ -->
+
+<script src="jpp.js"></script>

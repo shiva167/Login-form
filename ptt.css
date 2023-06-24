@@ -1,0 +1,85 @@
+
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+.loginform{
+    height: 520px;
+    width: 320px;
+    background-color:brown;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: lightcoral;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+.loginform form{
+    padding: 10px;
+    text-decoration: none;
+    width: 900px;
+}
+.loginform p{
+        font-size: 25px;
+        overflow: hidden;
+        color: #fff;
+}
+.loginform h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+/* .loginform input[type="submit"]{
+    font-size: 25px;
+    float: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 200px;
+} */
+.loginform .btn{
+    height: 42px;
+    margin: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color:cornsilk;
+    background-color: crimson;
+    border: 0;
+    outline: none;
+    font-size: 25px;
+    float: center;
+    width:120px ;
+}
+
+.loginform input[type="text"],input[type="password"]{
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: auto;
+}
+.loginform .btn:hover{
+    color: darkgoldenrod;
+    background-color: darkolivegreen;
+}
+.loginform h4{
+    font-size: 20px;
+    line-height: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+.loginform a{
+    font-style: none;
+    text-underline-offset: none;
+    text-decoration: none;
+    color: #fff;
+}
+.loginform a:hover{
+    color:darkgoldenrod;
+    background-color: darkolivegreen;
+}
